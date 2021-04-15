@@ -2,8 +2,8 @@ div.c1 {
     column-count: 3;
     
     position: relative;
-    top: 10px;
-    left: 100px;
+    top: 50px;
+    left: 325px;
     width: 1300px;
     column-rule: 0px;
     -webkit-column-break-after: right;
