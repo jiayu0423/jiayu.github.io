@@ -1,0 +1,224 @@
+body{
+    background-color: #bbaa99;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200' viewBox='0 0 160 80'%3E%3Cg fill='%23B0A090' %3E%3Cpolygon points='0 10 0 0 10 0'/%3E%3Cpolygon points='0 40 0 30 10 30'/%3E%3Cpolygon points='0 30 0 20 10 20'/%3E%3Cpolygon points='0 70 0 60 10 60'/%3E%3Cpolygon points='0 80 0 70 10 70'/%3E%3Cpolygon points='50 80 50 70 60 70'/%3E%3Cpolygon points='10 20 10 10 20 10'/%3E%3Cpolygon points='10 40 10 30 20 30'/%3E%3Cpolygon points='20 10 20 0 30 0'/%3E%3Cpolygon points='10 10 10 0 20 0'/%3E%3Cpolygon points='30 20 30 10 40 10'/%3E%3Cpolygon points='20 20 20 40 40 20'/%3E%3Cpolygon points='40 10 40 0 50 0'/%3E%3Cpolygon points='40 20 40 10 50 10'/%3E%3Cpolygon points='40 40 40 30 50 30'/%3E%3Cpolygon points='30 40 30 30 40 30'/%3E%3Cpolygon points='40 60 40 50 50 50'/%3E%3Cpolygon points='50 30 50 20 60 20'/%3E%3Cpolygon points='40 60 40 80 60 60'/%3E%3Cpolygon points='50 40 50 60 70 40'/%3E%3Cpolygon points='60 0 60 20 80 0'/%3E%3Cpolygon points='70 30 70 20 80 20'/%3E%3Cpolygon points='70 40 70 30 80 30'/%3E%3Cpolygon points='60 60 60 80 80 60'/%3E%3Cpolygon points='80 10 80 0 90 0'/%3E%3Cpolygon points='70 40 70 60 90 40'/%3E%3Cpolygon points='80 60 80 50 90 50'/%3E%3Cpolygon points='60 30 60 20 70 20'/%3E%3Cpolygon points='80 70 80 80 90 80 100 70'/%3E%3Cpolygon points='80 10 80 40 110 10'/%3E%3Cpolygon points='110 40 110 30 120 30'/%3E%3Cpolygon points='90 40 90 70 120 40'/%3E%3Cpolygon points='10 50 10 80 40 50'/%3E%3Cpolygon points='110 60 110 50 120 50'/%3E%3Cpolygon points='100 60 100 80 120 60'/%3E%3Cpolygon points='110 0 110 20 130 0'/%3E%3Cpolygon points='120 30 120 20 130 20'/%3E%3Cpolygon points='130 10 130 0 140 0'/%3E%3Cpolygon points='130 30 130 20 140 20'/%3E%3Cpolygon points='120 40 120 30 130 30'/%3E%3Cpolygon points='130 50 130 40 140 40'/%3E%3Cpolygon points='120 50 120 70 140 50'/%3E%3Cpolygon points='110 70 110 80 130 80 140 70'/%3E%3Cpolygon points='140 10 140 0 150 0'/%3E%3Cpolygon points='140 20 140 10 150 10'/%3E%3Cpolygon points='140 40 140 30 150 30'/%3E%3Cpolygon points='140 50 140 40 150 40'/%3E%3Cpolygon points='140 70 140 60 150 60'/%3E%3Cpolygon points='150 20 150 40 160 30 160 20'/%3E%3Cpolygon points='150 60 150 50 160 50'/%3E%3Cpolygon points='140 70 140 80 150 80 160 70'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+td{
+    text-align: center;
+    
+}
+
+th{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.igimg{
+    position: relative;
+    top: 15px;
+    left:9px;
+    width: 60px;
+    height: 60px;
+}
+
+.fbimg{
+    position: relative;
+    top: 15px;
+    left:-15px;
+    width: 60px;
+    height: 60px;
+}
+
+@keyframes box1span{
+    from{
+        width: 250px;
+        height: 300px;
+        }
+
+    to{
+        width: 250px;
+        height: 300px;
+        transform: perspective(250px) rotateY(360deg);
+        background-image: url(../img/a1.png);   
+    }
+}
+@keyframes box2span{
+    from{
+        width: 250px;
+        height: 300px;
+        }
+
+    to{
+        width: 250px;
+        height: 300px;
+        transform: perspective(250px) rotateY(360deg);
+        background-image: url(../img/b2.png) 
+    }
+}
+@keyframes box3span{
+    from{
+        width: 250px;
+        height: 300px;
+        }
+
+    to{
+        width: 250px;
+        height: 300px;
+        transform: perspective(250px) rotateY(360deg);
+        background-image: url(../img/c1.png);   
+    }
+}
+@keyframes box4span{
+    from{
+        width: 250px;
+        height: 300px;
+        }
+
+    to{
+        width: 250px;
+        height: 300px;
+        transform: perspective(250px) rotateY(360deg);
+        background-image: url(../img/d1.png);   
+    }
+}
+
+@keyframes up{
+    from{
+        transform:translateY(0em);
+        }
+
+    to{
+        transform:translateY(-2.35em);   
+    }
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+header{
+    text-align: center;
+}
+
+.box1{
+    width: 250px;
+    height: 300px;
+    background-image: url(../img/a.png);
+    background-size:cover ;
+}
+
+.box1:hover{
+    animation: box1span 1s;
+    background-size:100%;
+    animation-fill-mode: forwards;
+     
+}
+
+.box2{
+    width: 250px;
+    height: 300px;
+    background-image: url(../img/b.png);
+    background-size: cover ;
+    
+}
+
+.box2:hover{
+    animation: box2span 1s;
+    background-size:100%;
+    animation-fill-mode: forwards;
+}
+
+.box3{
+    width: 250px;
+    height: 300px;
+    background-image: url(../img/c.png);
+    background-size:cover ;
+    
+}
+
+.box3:hover{
+    animation: box3span 1s;
+    background-size:100%;
+    animation-fill-mode: forwards;
+}
+
+.box4{
+    width: 250px;
+    height: 300px;
+    background-image: url(../img/d.png);
+    background-size:cover ;
+    
+}
+
+.box4:hover{
+    animation: box4span 1s;
+    background-size:100%;
+    animation-fill-mode: forwards;
+}
+
+table{
+    margin-top: 20px; 
+}
+
+.column{
+    column-count: 5;
+    -webkit-column-break-after: auto;
+}
+.smalltitle{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bigtitle{
+    font-size: 30px;
+}
+.clear{
+    width: 250px;
+    height: 32px;
+    position: relative;
+    background-size:100%;
+    clear:left;
+    overflow:hidden;    
+}
+
+.down{ 
+    font-size: 21px;
+    font-family: cursive;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.down:hover{
+    cursor: pointer;
+    animation: up 1s;
+    animation-fill-mode: forwards;
+}
+.border{
+    filter: drop-shadow(10px 15px 10px rgba(206, 83, 83, 0.7));
+    border: 10px solid transparent;
+    border-image: url(../img/border1.png) 10% round;
+}
+
+
+
+.work{
+    color: rgb(253, 0, 0);
+    font-weight: bold;
+    background-color: white;
+    border: solid black;
+    border-radius: 2.5px;
+}
+
+
+.name{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-shadow: rgb(150, 150, 150) 1px 3px 0px, rgb(171, 168, 168) 1px 13px 5px;
+    letter-spacing: 2px;
+    
+}
+
+
+
