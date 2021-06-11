@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>購物車</title>
+    <link rel="stylesheet" type="text/css" href="trolley.css">
+</head>
+<body>
+    <div class="header"> 
+        <a href="../index.html"><div class="logo"></div></a>
+ 
+        <div class="right">
+            <div><a href="../html/member.html"><img src="../image/member.png" width="30px" height="30px">會員中心</a></div>
+            <div><a href="../html/message.html"><img src="../image/local.png" width="30px" height="30px">門市資訊</a></div>
+            <div><a href="../html/trolley.html"><img src="../image/car.png" width="30px" height="30px">購物車</a></div>
+            <div><a href="../html/signin.html"><img src="../image/enter.png" width="30px" height="30px">登入</a></div>
+        </div>
+    </div>
+    <div class="badmintontools">
+        <a href="../html/clothes.html"><div class="item">球衣</div></a>
+        <a href="../html/racket.html"><div class="item">球拍</div></a>
+        <a href="../html/line.html"><div class="item">拍線</div></a>
+        <a href="../html/fabric.html"><div class="item">握把布</div></a>
+        <a href="../html/bag.html"><div class="item">拍袋</div></a>
+        <a href="../html/ball.html"><div class="item">羽球</div></a>
+    </div>
+
+    <a href="../index.html" name="goback"> ←回去購物 </a>
+    <div class="title">購物清單</div>
+    
+    <div class="box">
+        <!--這邊要靠後台用if來寫-->
+        <!--(格式)
+            <div class="product">
+                刪除按鈕需要加action
+            <form method="post"action="">
+                <input type="button" name="button1" value="x">
+            </form>
+
+            <img src="圖片位置" height="60%" width="15%">
+            <p class="p1">商品名稱(變數)</p>
+            <p class="p2">數量:(變數)</p>
+            <p class="p3">售價:(變數)</p>
+        </div>
+        -->
+        <div class="product">
+            <!--刪除按鈕-->
+            <form method="post"action="">
+                <input type="button" name="button1" value="x">
+            </form>
+            <!--刪除按鈕-->
+            <img src="../image/badmintion/badmintion1.jpg" height="60%" width="15%">
+            <p class="p1">商品名稱</p>
+            <p class="p2">數量:</p>
+            <p class="p3">售價:</p>
+        </div>
+        <div class="product">
+            <form method="post"action="">
+                <input type="button" name="button1" value="x">
+            </form>
+            <img src="../image/badmintion/badmintion1.jpg" height="60%" width="15%">
+            <p class="p1">商品名稱</p>
+            <p class="p2">數量:</p>
+            <p class="p3">售價:</p>
+        </div>
+        <div class="product">
+            <form method="post"action="">
+                <input type="button" name="button1" value="x">
+            </form>
+            <img src="../image/badmintion/badmintion1.jpg" height="60%" width="15%">
+            <p class="p1">商品名稱</p>
+            <p class="p2">數量:</p>
+            <p class="p3">售價:</p>
+        </div>
+    </div>
+    <!--結帳按鈕 -->
+    <form method="post"action="">
+        <input type="button" name="button2" value="結帳" onclick="javascript:history.back();">
+    </form>
+    <!--結帳按鈕-->
+    <div class="title2">總金額:<!--變數--></div>
+    
+    <hr>
+    
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>會員註冊</title>
+    <link rel="stylesheet" type="text/css" href="registered.css">
+</head>
+<body>
+    <div class="header"> 
+        <a href="../index.html"><div class="logo"></div></a>
+ 
+        <div class="right">
+            <div><a href="../html/member.html"><img src="../image/member.png" width="30px" height="30px">會員中心</a></div>
+            <div><a href="../html/message.html"><img src="../image/local.png" width="30px" height="30px">門市資訊</a></div>
+            <div><a href="../html/trolley.html"><img src="../image/car.png" width="30px" height="30px">購物車</a></div>
+            <div><a href="../html/signin.html"><img src="../image/enter.png" width="30px" height="30px">登入</a></div>
+        </div>
+    </div>
+    <div class="badmintontools">
+        <a href="../html/clothes.html"><div class="item">球衣</div></a>
+        <a href="../html/racket.html"><div class="item">球拍</div></a>
+        <a href="../html/line.html"><div class="item">拍線</div></a>
+        <a href="../html/fabric.html"><div class="item">握把布</div></a>
+        <a href="../html/bag.html"><div class="item">拍袋</div></a>
+        <a href="../html/ball.html"><div class="item">羽球</div></a>
+    </div>
+
+
+    <div class="leftpicture"></div>
+    <div class="bgc">
+        <form method="post" action="">
+        <div class="box">
+            <p class="title">會員註冊</p>
+            <div class="aplocal">
+            帳號:<input type="text" name="account"  size="30" maxlength="30" placeholder="請輸入您的帳號" /><br>
+            密碼:<input type="password" name="password"  size="30" maxlength="30"   placeholder="您的密碼"/><br>
+            <div class="password">確認密碼:<input type="text" name="password"  size="30" maxlength="30"   placeholder="請再輸入一次您的密碼"/></div>
+            姓名:<input type="text" name="name"  size="30" maxlength="30"   placeholder="請輸入您的名字"/><br>
+            <div class="sex"> 
+                姓別:<input type="radio" name="sex" value="male" checked >男<input type="radio" name="sex" value="female">女
+            </div>
+            <div class="date">生日:<input type="date" name="password"  size="30" maxlength="30"   placeholder="請輸入您的生日"/></div>
+            <div class="email">E-mail:<input type="email" name="account"  size="30" maxlength="30" placeholder="請輸入您的電子郵件" /></div>
+            電話:<input type="text" name="phone"  size="30" maxlength="30"   placeholder="請輸入您的電話"/><br>
+            地址:<input type="text" name="address"  size="30" maxlength="30"   placeholder="請輸入您的地址"/><br>
+            <input type="reset" value="重新輸入">&nbsp;&nbsp;&nbsp;<input type="submit" value="註冊">&nbsp;&nbsp;&nbsp;<input type="button" value="回上頁" onclick="javascript:history.back();">
+
+            </div>
+        </div>
+        </form>
+    </div>
+    <div class="rightpicture"></div>
+</body>
+</html>
