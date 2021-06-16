@@ -3,6 +3,10 @@ a{
     color:black;
  }
 
+ .badmintontools a{
+    text-decoration:none;
+    font-weight: bolder;
+ }
 
 
 .badmintontools
@@ -21,6 +25,7 @@ a{
     background-size:cover;
     border-radius: 9999em;
     margin-left: 50px;
+    border: solid;
 }
 .item{
     padding:10px;
@@ -113,8 +118,6 @@ tailer{
     margin-right: 5%;
 }
 
-
-
 footer{
     margin-top:1.5%;
     background-color: rgb(243, 188, 188);
@@ -134,28 +137,32 @@ li{
     padding-bottom: 30px;
 }
 
-.slider_container {
-    margin: 30px auto;
-    width: 100%;
+.AD {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 6%;
+    width: 90%;
     height: 400px;
     position: relative;
 }
 
-.slider_container div {
+.AD div {
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
     filter: alpha(opacity=0);
+    
 }
-.slider_container img{
-    margin-left: 7.5%;
+.AD img{
     width: 1300px;
     height: 400px;
     border-radius:25px;
+    margin-left: 9%;
+    background-size: cover;
 }
 
-.slider_container div {
+.AD div {
     -webkit-animation: round 25s linear infinite;
             animation: round 25s linear infinite;
 }
@@ -189,27 +196,27 @@ li{
     }
 }
 
-.slider_container div:nth-child(5) {
+.AD div:nth-child(5) {
     -webkit-animation-delay: 0s;
             animation-delay: 0s;
 }
 
-.slider_container div:nth-child(4) {
+.AD div:nth-child(4) {
     -webkit-animation-delay: 5s;
             animation-delay: 5s;
 }
 
-.slider_container div:nth-child(3) {
+.AD div:nth-child(3) {
     -webkit-animation-delay: 10s;
             animation-delay: 10s;
 }
 
-.slider_container div:nth-child(2) {
+.AD div:nth-child(2) {
     -webkit-animation-delay: 15s;
             animation-delay: 15s;
 }
 
-.slider_container div:nth-child(1) {
+.AD div:nth-child(1) {
     -webkit-animation-delay: 20s;
             animation-delay: 20s;
 }
@@ -217,34 +224,32 @@ li{
 .badmintontools div:hover{
     background: -webkit-radial-gradient(ellipse,rgb(216, 214, 214),white);
 }
+
 .imagecolumn img:hover{
     box-shadow:3px 3px 3px 3px  gray;
     transform:scale(1.1,1.1);
 }
 
-.row{
-    float:left;
-    border:groove;
-    height:1052px;
-    width:200px;  
-    background-color:#FFFFFF; 
-}
-
-.clothesinside{
+.ul2{
     column-count:4;
     border:groove; 
-    padding-bottom:25px;  
+    -webkit-column-break-after:auto;
+    column-rule:3px rgb(199, 194, 194) solid ;
+}
+
+
+.clothesinside p{
+    text-align: center;
+}
+
+.clothesinside img{
+    margin-top: 20%;
 }
 
 .clothesinside img:hover{
     box-shadow:3px 3px 3px 3px  gray;
     transform:scale(1.1,1.1);
 }
-
-.li2{
-    padding-bottom:30px;
-}
-
 
 .table{
     text-align: center;
@@ -270,115 +275,5 @@ li{
     border:solid;
 }
 
-.price1{
-    position:absolute;
-    top:48%;
-    left:19%;
-    text-align:center;
-}
 
-.price2{
-    position:absolute;
-    top:48%;
-    left:39%;
-    text-align:center;
-}
-
-.price3{
-    position:absolute;
-    top:48%;
-    left:60%;
-    text-align:center;
-}
-
-.price4{
-    position:absolute;
-    top:48%;
-    left:81%;
-    text-align:center;
-}
-
-.price5{
-    position:absolute;
-    top:83%;
-    left:18.5%;
-    text-align:center;
-}
-
-.price6{
-    position:absolute;
-    top:83%;
-    left:39.5%;
-    text-align:center;
-}
-
-.price7{
-    position:absolute;
-    top:83%;
-    left:60.5%;
-    text-align:center;
-}
-
-.price8{
-    position:absolute;
-    top:83%;
-    left:81.5%;
-    text-align:center;
-}
-
-.price9{
-    position:absolute;
-    top:118%;
-    left:18.5%;
-    text-align:center;
-}
-
-.price10{
-    position:absolute;
-    top:118%;
-    left:39.5%;
-    text-align:center;
-}
-
-.price11{
-    position:absolute;
-    top:118%;
-    left:60.5%;
-    text-align:center;
-}
-
-.price12{
-    position:absolute;
-    top:118%;
-    left:81.5%;
-    text-align:center;
-}
-
-.price13{
-    position:absolute;
-    top:153%;
-    left:17.8%;
-    text-align:center;
-}
-
-.price14{
-    position:absolute;
-    top:153%;
-    left:39.5%;
-    text-align:center;
-}
-
-.price15{
-    position:absolute;
-    top:153%;
-    left:60.8%;
-    text-align:center;
-}
-
-.price16{
-    position:absolute;
-    top:153%;
-    left:81.8%;
-    text-align:center;
-}
 

@@ -4,6 +4,7 @@ a{
 
  .badmintontools a{
     text-decoration:none;
+    font-weight: bolder;
  }
 
  .right a{
@@ -76,8 +77,12 @@ a{
 .location{
     position:absolute;
     top:190px;
-    right:500px;
+    right:33%;
     font-size: 20pt;
     font-weight: bold;
     text-decoration: underline;
+}
+
+.column{
+    column-count:4;
 }

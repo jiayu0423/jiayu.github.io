@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="trolley.css">
 </head>
 <body>
+    <form method="post"action=""><!--結帳按鈕的form-->
     <div class="header"> 
         <a href="../index.html"><div class="logo"></div></a>
  
@@ -39,7 +40,7 @@
                 <input type="button" name="button1" value="x">
             </form>
 
-            <img src="圖片位置" height="60%" width="15%">
+            <img src="從資料庫去讀去檔案位置" height="60%" width="15%">
             <p class="p1">商品名稱(變數)</p>
             <p class="p2">數量:(變數)</p>
             <p class="p3">售價:(變數)</p>
@@ -47,7 +48,7 @@
         -->
         <div class="product">
             <!--刪除按鈕-->
-            <form method="post"action="">
+            <form method="post"action=""><!--刪除按鈕的form-->
                 <input type="button" name="button1" value="x">
             </form>
             <!--刪除按鈕-->
@@ -74,15 +75,27 @@
             <p class="p2">數量:</p>
             <p class="p3">售價:</p>
         </div>
+
+        <div>
+
+        
+        </div>
+
     </div>
+        <div class="box2">
+            <div class="title3">訂購人姓名:</div><input type="text" name="name"  size="30" maxlength="30"  />
+            <div class="title3">訂購人電話:</div><input type="text" name="phone"  size="30" maxlength="30"  />
+            <div class="title3">訂購人郵件:</div><input type="mail" name="email"  size="50" maxlength="30"  />
+            <div class="title3">運送地址:</div><input type="text" name="address"  size="50" maxlength="30"  />
+        </div>
     <!--結帳按鈕 -->
-    <form method="post"action="">
-        <input type="button" name="button2" value="結帳" onclick="javascript:history.back();">
-    </form>
+        <input type="button" name="button2" value="結帳">
     <!--結帳按鈕-->
     <div class="title2">總金額:<!--變數--></div>
+
+
     
     <hr>
-    
+</form>
 </body>
 </html>

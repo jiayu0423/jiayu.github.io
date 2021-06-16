@@ -4,6 +4,7 @@ a{
 
  .badmintontools a{
     text-decoration:none;
+    font-weight: bolder;
  }
 
  .right a{
@@ -65,6 +66,7 @@ a{
     background-color: rgb(241, 255, 254);
     z-index:1;
     clear: left;
+    margin-top: 3%;
 }
 .title{
     font-size: 30px;
@@ -132,14 +134,14 @@ input[type="button"]{
 }
 
 .date{
-    padding-right: 17%;
+    padding-right: 13%;
 }
 
 .leftpicture{
     position: absolute;
     margin-top: 2%;
     margin-left: 3%;
-    height: 500px;
+    height: 100%;
     width: 35%;
     border-radius: 10px;
     background-image: url(../image/badmintionleft.jpg);
@@ -149,10 +151,9 @@ input[type="button"]{
 }
 
 .rightpicture{
-    float: right;
-    margin-top: 0.2%;
-    margin-right: 4%;
-    height: 500px;
+    position: absolute;
+    margin-left: 60%;
+    height: 100%;
     width: 35%;
     border-radius: 10px;
     background-image: url(../image/badmintionright.jpg);

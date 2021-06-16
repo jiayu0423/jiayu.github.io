@@ -14,6 +14,7 @@ a{
 
  .badmintontools a{
     text-decoration:none;
+    font-weight: bolder;
  }
 
  .right a{
@@ -149,4 +150,34 @@ input[name="button2"]{
     margin-right: 7.7%;
     font-size: 16pt;
     font-weight: bolder;
+}
+
+.title3{
+    position:relative;
+    font-size: 20pt;
+    font-weight: bolder;
+    width: 20%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+input[type="text"]{
+    position:relative;
+    height: 30px;
+    margin-left: 3%;
+    font-size: 16pt;
+}
+input[type="mail"]{
+    position:relative;
+    height: 30px;
+    margin-left: 3%;
+    font-size: 16pt;
+}
+
+.box2{
+    border: solid 1px gray;
+    padding-bottom: 30px;
+    width: 86%;
+    margin-top: 3%;
+    margin-left: 7%;
 }
