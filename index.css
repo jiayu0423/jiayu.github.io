@@ -231,6 +231,12 @@ li{
     transform:scale(1.1,1.1);
 }
 
+.imagecolumn p{
+    color: red;
+    font-weight: bolder;
+    font-size: 14pt;
+}
+
 .ul2{
     column-count:4;
     border:groove; 
