@@ -1,0 +1,88 @@
+a{ 
+    color:black;
+ }
+
+ .badmintontools a{
+    text-decoration:none;
+    font-weight: bolder;
+ }
+
+ .right a{
+    text-decoration:none;
+ }
+
+.right{
+
+    float:right;
+    column-count:4;
+    padding-top:25px;
+    margin-top: -50px;
+    vertical-align: text-top;
+    grid-column: 10%;
+}
+
+.header
+{
+    width: 100%;
+    height: 80px;
+}
+
+
+.logo{
+    background-image: url(../image/logo.png);
+    height: 70px;
+    width: 70px;
+    background-size:cover;
+    border-radius: 9999em;
+    margin-left: 50px;
+}
+.badmintontools
+{
+    border-top: solid 3px silver;
+    border-bottom: solid 3px silver;
+    column-count:6;
+    text-align:center;
+    margin:10px;
+    column-rule:1px silver solid ;
+}
+.badmintontools div:hover{
+    background: -webkit-radial-gradient(ellipse,rgb(216, 214, 214),white);
+}
+.item{
+    padding:10px;
+}
+
+.contact{
+    font-weight:bold;;
+    background-color:#FFFF6E;
+    position:absolute;
+    margin-top:10.5%;
+    margin-left:22%;
+    width:20%;
+    text-align:left;
+    border-radius:5px;
+    box-shadow: 11px 9px 19px #A1A1A1;
+    -webkit-box-shadow: 11px 9px 19px #A1A1A1;
+    -moz-box-shadow: 10px 9px 19px #A1A1A1;
+}
+
+.map{
+    margin-top:6.5%;
+    margin-left:47%;
+    width:500px;
+    height:500px;
+    border-radius:10px;
+}
+
+.location{
+    position:absolute;
+    top:190px;
+    right:33%;
+    font-size: 20pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.column{
+    column-count:4;
+}

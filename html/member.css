@@ -68,7 +68,7 @@ a{
     height: 200px;
     width: 20%;
     margin-left: 10%;
-    background-color:white;
+    background-image: url(../../image/photo.jpg);
     border: solid;
 }
 
